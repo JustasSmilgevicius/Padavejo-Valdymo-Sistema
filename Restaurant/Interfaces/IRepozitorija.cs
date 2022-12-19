@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Restaurant.Interfaces
 {
-  //  public interface IRepozitorija <T>
-   // {
-  //      void RodykVisus();
-  //      T RetriveByID(int id);
-  //  }
+    public interface IRepozitorija <T>
+    {
+        void RodykVisus();
+        T RetriveByID(int id);
+    }
 }
